@@ -29,7 +29,7 @@ func timeToPromTime(t time.Time) int64 {
 
 func main() {
 	var (
-		flagCardinality = flag.Int("cardinality", 5000000, "cardinality to generate")
+		flagCardinality = flag.Int("cardinality", 500000, "cardinality to generate")
 		flagDir         = flag.String("dir", "/tmp", "directory for output")
 	)
 
